@@ -4,7 +4,7 @@ export default function OneChanel({id, name, icon, selectedChanels, setSelectedC
     const [checked, setChecked] = useState(false);
 
     useEffect(() => {
-      checked === true ? setSelectedChanels([...selectedChanels, id]) : setSelectedChanels(selectedChanels.filter(el => el !== id))
+      checked ? setSelectedChanels([...selectedChanels, id]) : setSelectedChanels(selectedChanels.filter(el => el !== id))
     }, [checked])
     
 
