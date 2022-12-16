@@ -5,16 +5,17 @@
     border-radius: 8px;
     margin: 10px;
     background: white;
+    cursor: pointer;
 }
 
 .chanelContainer:hover {
-    transform: scale(1.2);
-    filter: brightness(90%);
+    transform: scale(1.1);
+    filter: brightness(85%);
     transition: 0.6s;
 }
 
 .checked {
-    filter: brightness(70%)
+    filter: brightness(70%);
 }
 
 .imgContainer {

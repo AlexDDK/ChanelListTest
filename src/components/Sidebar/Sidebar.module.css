@@ -1,0 +1,23 @@
+
+.sidebar {
+    float: right;
+    height: 100%;
+    grid-area: 1 / 2 / 3 / 3;
+    width: 0;
+    transition: 1.2s;
+}
+
+.visible {
+    width: 300px;
+    background-color: rgb(207, 205, 205);
+}
+
+.packsContainer {
+    position: sticky;
+    top: 30px;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    /* background: red; */
+    height: 90vh;
+}

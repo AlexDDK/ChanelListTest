@@ -10,7 +10,6 @@ export default function OneChanel({id, name, icon, selectedChanels, setSelectedC
     // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [checked])
     
-
     function changeCheckbox() {
         setChecked(!checked);
     }
