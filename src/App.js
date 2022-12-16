@@ -6,9 +6,7 @@ import SelectButton from './components/SelectButton/SelectButton';
 
 function App() {
   const [selectedChanels, setSelectedChanels] = useState([])
-  console.log(chanelData);
-  console.log('SELECTED', selectedChanels);
-
+  console.log('selectedChanels>>>>', selectedChanels);
 
   return (
     <div className="App">
