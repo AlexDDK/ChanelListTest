@@ -19,14 +19,11 @@ export default function OneChanel({id, name, icon, selectedChanels, setSelectedC
       <div className={cn(styles.chanelContainer,{
         [styles.checked]: checked
       })}>
-        
-      <div className={styles.imgContainer}><img src={icon} alt={name}></img></div>
-
-      <div className={styles.inputContainer}>
-        <input type='checkbox' checked={checked} onChange={changeCheckbox}/>{name}
+        <div className={styles.imgContainer}><img src={icon} alt={name}></img></div>
+        <div className={styles.inputContainer}>
+          <input type='checkbox' checked={checked} onChange={changeCheckbox}/>{name}
+        </div>
       </div>
-
-    </div>
     </label>
   )
 }

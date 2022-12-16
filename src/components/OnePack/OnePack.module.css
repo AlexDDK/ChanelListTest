@@ -24,3 +24,31 @@
 .description {
     overflow: hidden;
 }
+
+@media (max-width: 765px) {
+    .pack {
+        border: 1px solid gray;
+        color: white;
+        width: auto;
+        padding-left: 2%;
+        padding-right: 2%;
+        padding-bottom: 0;
+        flex-direction: column;
+        height: auto;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+
+    .description {
+        display: none;
+    }
+
+    .pack h3 {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .pack p {
+        margin-bottom: 5px;
+    }
+}

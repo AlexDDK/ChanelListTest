@@ -2,7 +2,7 @@ import React from 'react'
 import OneChanel from '../OneChanel/OneChanel';
 import styles from './ChanelList.module.css'
 
-export default function ChanelList({chanelData, setSelectedChanels, selectedChanels, setSuitPack}) {
+export default function ChanelList({chanelData, setSelectedChanels, selectedChanels}) {
     let set = new Set();
 
     chanelData.forEach(el => {
@@ -24,10 +24,7 @@ export default function ChanelList({chanelData, setSelectedChanels, selectedChan
                     icon={JSON.parse(el).icon}
                     selectedChanels={selectedChanels}
                     setSelectedChanels={setSelectedChanels}
-                    chanelData={chanelData}
-                    setSuitPack={setSuitPack}
-                    />)}
-
+            />)}
         </div>
     )
 }
